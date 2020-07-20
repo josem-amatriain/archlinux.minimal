@@ -47,8 +47,8 @@ Theese are for spanish, french and british english. More info here:
 [Loadkeys](https://wiki.archlinux.org/index.php/Linux_console/Keyboard_configuration#Loadkeys)
 
 2. The Second one must be passwd to change the root password.
-3- The third, you must check the network is runnig ok.
-4.- The forth '''bash systemctl start sshd''' Starting the openssh server
+3. The third, you must check the network is runnig ok.
+4. The forth '''bash systemctl start sshd''' Starting the openssh server
 
 ### Remote Access
 You must have remote access from the ansible host.
