@@ -57,3 +57,12 @@ Starting the openssh server
 
 ### Remote Access
 You must have remote access from the ansible host.
+```bash
+ssh root@mi.ip
+# Optional: offending keys
+# ssh-keygen -R mi.ip
+ssh-copy-id root@mi.ip
+ssh root@mi.ip
+
+```
+
